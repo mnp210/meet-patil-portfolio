@@ -1,0 +1,23 @@
+# Environment variables and secrets
+.env
+.env.*
+*.env
+*.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary and test artifacts
+node_modules/
+.edge_audit_temp/
+.edge_audit_profile/
+audit_verification_shots/
+*.log
